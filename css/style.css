@@ -11,6 +11,10 @@ a {
     
 }
 
+ul {
+    list-style: none;
+}
+
 li {
     list-style-type: none;
 }
@@ -302,8 +306,9 @@ body {
     max-width: 90%;
     position: relative;
     margin: auto;
-    height: 300px;
-    width: 640px;
+    height: 480px;
+    width: 680px;
+    margin-bottom: 80px;
 }
 
 .slider .item img {
@@ -319,7 +324,6 @@ body {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: 80px;
     padding: 16px;
     color:#ECB84C;
     font-weight: bold;
@@ -342,3 +346,74 @@ body {
     animation-name: fade;
     animation-duration: 1.5s;
 }
+
+.footer {
+    background: #F8F8F8;
+    width: 100%;
+    
+   
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer__item-title {
+    font-family: Lato;
+    
+    font-size: 15px;
+    line-height: 20px;
+    color: #4E5665;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+
+}
+
+.footer__item-link--social {
+    padding-left: 28px;
+    position: relative;
+}
+
+.footer__item-link--social::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.footer__item-link--massege::before{
+    background-image: url(../images/support.svg);
+    width: 17px;
+    top: 1px;
+}
+.footer__item-link--Facebook::before{
+    background-image: url(../images/facebook-logo.svg);
+}
+.footer__item-link--Instagram::before{
+    background-image: url(../images/instagram-logo.svg);
+
+}
+.footer__item-link--Youtube::before{
+    background-image: url(../images/youtube-symbol.svg);
+
+}
+.footer__item-link--email::before{
+    background-image: url(../images/email-symbol.svg);
+    width: 13px;
+    top: 2px;
+
+}
+
+.footer__copy {
+    
+    text-align: center;
+    font-size: 14px;
+    line-height: 19;
+
+}
+
