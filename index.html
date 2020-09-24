@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/reset.css">
-    <script src ="/js/main.js"></script>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
 
 </head>
 <body>
@@ -59,7 +58,7 @@
             </ul>
         </nav>
     </header>
-    <!-- <section class="reason">
+    <section class="reason">
         <div class="container saction-line">
         <h2 class="reason__title">
             Почему тебе понравится отпуск на Кубе?
@@ -175,7 +174,7 @@
 
      <saction class="photo">
         <div class="container">
-            <h2 class="photo__title">
+            <h2 class="photo__title title">
                 Куба в фото
             </h2>
             <p class="photo__text container-content">      
@@ -185,20 +184,20 @@
             Это пышная, покрытая пальмами береговая линия океана, это Великая рифтовая долина, 
             которая когда-то угрожала разорвать континент на части, и это густые леса, напоминающие сердце континента. 
             </p>
+            <div class="photo__slider"></div>
             <div class="slider">
                 <div class="slider__box"></div>
                 <div class="item">
-                    <img src="/images/Photo_slider.jpg">
+                    <img class="photo__img" src="/images/Photo_slider.jpg">
                 </div>
                 <div class="item">
-                    <img src="/images/Photo_slider2.jpg">
+                    <img class="photo__img" src="/images/Photo_slider.jpg">
                 </div>
                 <div class="item">
-                    <img src="/images/Photo_slider3.jpg">
+                    <img class="photo__img" src="/images/Photo_slider.jpg">
                 </div>
            
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <a class="next" onclick="nextSlide()">&#10095;</a>
+                
               </div>
             </div>
             
@@ -257,9 +256,13 @@
                     © 2020 Все права защищены
                 </div>
             </div>
-        </footer> -->
+        </footer>
 
 
 
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 </html>
