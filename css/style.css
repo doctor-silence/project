@@ -401,6 +401,21 @@ body {
     margin: 0 auto;
 }
 
+.photo__slider{
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.slick-arrow {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ECB84C;
+    cursor: pointer;
+
+}
+
 .slider{
     max-width: 90%;
     position: relative;
@@ -436,10 +451,6 @@ body {
     border-radius: 3px 0 0 3px;
 }
 
-.slider .previous:hover,
-.slider .next:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-}
 
 .slider .item {
     animation-name: fade;
